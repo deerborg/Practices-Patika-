@@ -13,22 +13,22 @@ public class Main {
         System.out.println("------------------------------------------");
         
         //  Product prices
-        double bananaPrice = 5.24;
-        double applePrice = 3.27;
-        double orangePrice = 2.51;
-        double tomatoesPrice = 1.15;
-        double cucumberPrice = 0.72;
+        double pearPrice = 2.14;
+        double applePrice = 3.67;
+        double tomatoesPrice = 1.11;
+        double bananaPrice = 0.95;
+        double auberginePrice = 5.00;
         double totalPrice = 0;
         
         System.out.println("------------------------------------------");
         System.out.println("Price list: ");
         
         // Price List
-        System.out.println("Banana Price: " + bananaPrice);
+        System.out.println("Pear Price: " + pearPrice);
         System.out.println("Apple Price " + applePrice);
         System.out.println("Tomatoes Price:  " + tomatoesPrice);
-        System.out.println("Cucumber Price " + cucumberPrice);
-        System.out.println("Orange Price " + orangePrice);
+        System.out.println("Banana Price " + bananaPrice);
+        System.out.println("aubergine Price " + auberginePrice);
         System.out.println("-----------------------------------------");
         
         System.out.println("Kilos of tomatoes: ");
@@ -40,24 +40,20 @@ public class Main {
         int appleValue = userValue.nextInt();
         totalPrice += appleValue*applePrice;
 
-        System.out.println("Kilos of orange: ");
-        int orangeValue = userValue.nextInt();
-        totalPrice += orangeValue*orangePrice;
+        System.out.println("Kilos of pear: ");
+        int pearValue = userValue.nextInt();
+        totalPrice += pearValue*pearPrice;
 
         System.out.println("Kilos of banana: ");
         int bananaValue = userValue.nextInt();
         totalPrice += bananaValue*bananaPrice;
 
-        System.out.println("Kilos of cucumber");
-        int cucumberValue = userValue.nextInt();
-        totalPrice += cucumberValue*cucumberPrice;
+        System.out.println("Kilos of aubergine");
+        int aubergineValue = userValue.nextInt();
+        totalPrice += aubergineValue*auberginePrice;
+        
         System.out.println("-----------------------------------------");
         System.out.println("Total price : " + totalPrice);
         System.out.println("-----------------------------------------");
-
-
-
-
-
     }
 }
