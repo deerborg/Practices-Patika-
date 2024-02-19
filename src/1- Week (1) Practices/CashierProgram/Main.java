@@ -32,7 +32,7 @@ public class Main {
         System.out.println("-----------------------------------------");
         
         System.out.println("Kilos of tomatoes: ");
-       
+        // Price-weight calculations
         int tomatoesValue = userValue.nextInt();
         totalPrice += tomatoesValue*tomatoesPrice;
 
