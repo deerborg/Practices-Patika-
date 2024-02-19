@@ -32,7 +32,7 @@ public class Main {
         System.out.println("-----------------------------------------");
         
         System.out.println("Kilos of tomatoes: ");
-        //Toplam tutarı = ürünün fiyat x istenilen kilo üzerinden toplam tutara ekledim.
+       
         int tomatoesValue = userValue.nextInt();
         totalPrice += tomatoesValue*tomatoesPrice;
 
